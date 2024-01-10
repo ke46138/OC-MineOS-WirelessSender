@@ -1,8 +1,0 @@
-{
-  greeting = "Hello, "
-  broadcast = "Broadcast"
-  setport = "Set port"
-  portisopen = "Port is open?"
-  portmessage = "Port"
-  message = "Message"
-}

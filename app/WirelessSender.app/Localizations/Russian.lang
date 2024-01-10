@@ -1,8 +1,0 @@
-{
-  greeting = "Привет, "
-  broadcast = "Броадкаст"
-  setport = "Установить порт"
-  portisopen = "Открыт ли порт?"
-  portmessage = "Порт"
-  message = "Сообщение"
-}
