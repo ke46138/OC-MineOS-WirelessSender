@@ -38,7 +38,7 @@ end
 local broadcastButton = window:addChild(GUI.button(2, 8, 20, 3, 0xFFFFFF, 0x555555, 0x696969, 0xFFFFFF, "Broadcast"))
 broadcastButton.onTouch = function()
   m.broadcast(port, message)
-  GUI.alert(localization.broadcast)
+  --GUI.alert(localization.broadcast)
 end
 
 local setPortButton = window:addChild(GUI.button(24, 4, 20, 3, 0xFFFFFF, 0x555555, 0x696969, 0xFFFFFF, "Set port"))
