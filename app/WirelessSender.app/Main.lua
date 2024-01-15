@@ -31,16 +31,16 @@ portInput.onInputFinished = function()
   m.close()
 end
 
-local portIsOpenButton = window:addChild(GUI.button(2, 4, 20, 3, 0xFFFFFF, 0x555555, 0x696969, 0xFFFFFF, "Port is open?"))
+local portIsOpenButton = window:addChild(GUI.button(2, 4, 20, 3, 0xFFFFFF, 0x555555, 0x3C3C3C, 0xFFFFFF, "Port is open?"))
 portIsOpenButton.onTouch = function()
   GUI.alert(m.isOpen(port))
 end
-local broadcastButton = window:addChild(GUI.button(2, 8, 20, 3, 0xFFFFFF, 0x555555, 0x696969, 0xFFFFFF, "Broadcast"))
+local broadcastButton = window:addChild(GUI.button(2, 8, 20, 3, 0xFFFFFF, 0x555555, 0x3C3C3C, 0xFFFFFF, "Broadcast"))
 broadcastButton.onTouch = function()
   m.broadcast(port, message)
 end
 
-local setPortButton = window:addChild(GUI.button(24, 4, 20, 3, 0xFFFFFF, 0x555555, 0x696969, 0xFFFFFF, "Set port"))
+local setPortButton = window:addChild(GUI.button(24, 4, 20, 3, 0xFFFFFF, 0x555555, 0x3C3C3C, 0xFFFFFF, "Set port"))
 setPortButton.onTouch = function()
   m.open(port)
 end
